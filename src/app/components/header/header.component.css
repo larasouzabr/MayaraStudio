@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&display=swap');
+.welcome-text{ 
+    max-width:60%;
+    position: relative;
+        top: 50%;
+        left: 5%;
+}
+
+
+.welcome-banner{
+    position: absolute;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.img-mayara{
+    position: relative;
+    width: 200px;
+    right: -10%;
+    transform: translateX(100%);
+    background-image: url('../../../assets/Vector.png');
+    background-size: cover;
+}
+
+@media (max-width:480px)  {
+    .welcome-banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FFE4F1;
+    }
+    .welcome-text-hello{
+        font-size: 25px;
+        font-family: 'MuseoModerno', sans-serif;
+    }
+    .welcome-text-name{
+        font-family: 'Noto Serif Display', serif;
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    .welcome-text {
+        max-width: 60%;
+        position: relative;
+        top: 10%;
+        left: 5%;
+    }
+    .img-mayara{
+        width: 200px;
+
+  }
+    .image-container{
+        position: relative;
+        right: 3%;
+        bottom: 0;
+    }
+    .welcome-text-info{
+        font-family: 'MuseoModerno', sans-serif;        
+        font-size: 14px;
+        text-align: justify;
+    }
+}
