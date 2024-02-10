@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&display=swap');
+
 .welcome-text{ 
     max-width:60%;
     position: relative;
@@ -35,10 +34,8 @@
     }
     .welcome-text-hello{
         font-size: 25px;
-        font-family: 'MuseoModerno', sans-serif;
     }
     .welcome-text-name{
-        font-family: 'Noto Serif Display', serif;
         font-size: 30px;
         line-height: 1.2em;
     }
@@ -58,7 +55,6 @@
         bottom: 0;
     }
     .welcome-text-info{
-        font-family: 'MuseoModerno', sans-serif;        
         font-size: 14px;
         text-align: justify;
     }
