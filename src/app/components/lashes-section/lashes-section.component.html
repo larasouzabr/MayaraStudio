@@ -1,0 +1,44 @@
+<div class="content-lashes">
+  <h1 class="section-title" style="font-family: 'Noto Serif Display', serif">
+    Extensão de Cílios
+  </h1>
+
+  <h6 class="description-section">
+    Com uma variedade de opções disponíveis, desde extensões clássicas até
+    volumes dramáticos, nossos serviços de extensão de cílios são personalizados
+    para atender às suas necessidades e estilo pessoal.
+  </h6>
+
+  <div class="options-lashes">
+    <div
+      class="card-lash"
+      *ngFor="let lash of lashes; let i = index"
+      :key="index"
+    >
+      <div class="techniche-name">{{ lash.name }}</div>
+      <div class="info">
+        <div class="img-space">
+          <img
+            class="img"
+            src="../../../assets/lashes-types/volume-luxo-brown.PNG"
+            alt=""
+          />
+        </div>
+        <div class="description-lash">
+          <div class="price">R${{ lash.price }}</div>
+          <p>
+            {{ lash.description }}
+          </p>
+          <div class="manutencoes-lashes">
+            <span class="word-manutencoes"> Manutenções</span>
+            <span
+              class="lashes-prices-manutencao"
+              *ngFor="let dias of lash.manutencoes; let i = index"
+              >{{ dias }}</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

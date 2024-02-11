@@ -1,0 +1,44 @@
+.main-class-services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.serv{
+    background-color: #efccde;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:480px) {
+.image-serv{
+    width: 100px;
+    border-radius: 50%;
+}
+.mini-description{
+    margin: 20px;
+}
+.service-name{
+    margin-top: 20px;
+    background-color: rgb(95, 11, 82);
+    border-radius: 10%;
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.serv{
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    }
+}
+.services-offered{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}

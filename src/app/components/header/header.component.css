@@ -9,7 +9,6 @@
 
 .welcome-banner{
     position: absolute;
-    margin-top: 2rem;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -19,8 +18,8 @@
 .img-mayara{
     position: relative;
     width: 200px;
-    right: -10%;
-    transform: translateX(100%);
+    left: 50%;
+    top: 18%;
     background-image: url('../../../assets/Vector.png');
     background-size: cover;
 }
@@ -38,6 +37,7 @@
     .welcome-text-name{
         font-size: 30px;
         line-height: 1.2em;
+        font-family: 'Noto Serif Display', serif;
     }
     .welcome-text {
         max-width: 60%;

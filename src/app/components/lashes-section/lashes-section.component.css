@@ -1,0 +1,60 @@
+.content-lashes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media (max-width:480px) {
+    .content-lashes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+    }
+    .card-lash{
+        background-color: rgb(252, 236, 246);
+        margin-top: 20px;}
+        .img{
+        width: 100px;
+    }
+    .description-section{
+        padding: 20px;
+        text-align: justify;
+    }
+    .options-lashes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .description-lash{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .manutencoes-lashes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .techniche-name{
+        text-align: center;
+        font-family: 'Noto Serif Display', serif;
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    .price{
+        font-size: 20px;
+        font-family: 'Noto Serif Display', serif;
+        margin-bottom: 10px;
+    }
+    .word-manutencoes{
+        margin-bottom: 10px;
+    }
+}
