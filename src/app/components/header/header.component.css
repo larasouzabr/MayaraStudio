@@ -8,7 +8,6 @@
 
 
 .welcome-banner{
-    position: absolute;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -16,7 +15,6 @@
 }
 
 .img-mayara{
-    position: relative;
     width: 200px;
     left: 50%;
     top: 18%;
@@ -26,6 +24,7 @@
 
 @media (max-width:480px)  {
     .welcome-banner{
+        padding-top: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -45,6 +44,12 @@
         top: 10%;
         left: 5%;
     }
+    .img-div-mayara{
+        display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+    }
+
     .img-mayara{
         width: 200px;
 

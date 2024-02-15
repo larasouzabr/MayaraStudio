@@ -1,9 +1,11 @@
 header {
-    height: 50%;
-    /* Ajuste conforme necessário */
+    height: 26rem;
 }
 
-section {
+.container {
     margin-top: 20px;
-    /* Ajuste conforme necessário */
+}
+
+app-root{
+    background-color: #fcf1f6;
 }

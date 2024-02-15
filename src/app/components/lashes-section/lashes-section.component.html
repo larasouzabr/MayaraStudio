@@ -18,18 +18,14 @@
       <div class="techniche-name">{{ lash.name }}</div>
       <div class="info">
         <div class="img-space">
-          <img
-            class="img"
-            src="../../../assets/lashes-types/volume-luxo-brown.PNG"
-            alt=""
-          />
+          <img class="img" src="{{ lash.img }}" alt="" />
         </div>
         <div class="description-lash">
           <div class="price">R${{ lash.price }}</div>
           <p>
             {{ lash.description }}
           </p>
-          <div class="manutencoes-lashes">
+          <div class="manutencoes-lashes" *ngIf="lash.manutencoes">
             <span class="word-manutencoes"> Manutenções</span>
             <span
               class="lashes-prices-manutencao"
