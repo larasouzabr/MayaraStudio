@@ -14,6 +14,13 @@
     height: 50%;
 }
 
+.welcome-text-hello {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 .img-mayara{
     width: 200px;
     left: 50%;
@@ -29,17 +36,22 @@
         flex-direction: column;
         justify-content: center;
         background-color: #FFE4F1;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
     }
     .welcome-text-hello{
         font-size: 25px;
     }
     .welcome-text-name{
-        font-size: 30px;
+        font-size: 50px;
         line-height: 1.2em;
+        color: mediumvioletred;
+        font-variant: petite-caps;
+        font-weight: 800;
         font-family: 'Noto Serif Display', serif;
     }
     .welcome-text {
-        max-width: 60%;
+        max-width: 80%;
         position: relative;
         top: 10%;
         left: 5%;
@@ -47,7 +59,15 @@
     .img-div-mayara{
         display: flex;
             flex-direction: row;
-            justify-content: flex-end;
+            justify-content:space-between;
+    }
+    
+    .redes-sociais{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 30%;
+        align-items: center;
     }
 
     .img-mayara{
