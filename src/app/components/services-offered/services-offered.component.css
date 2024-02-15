@@ -5,9 +5,9 @@
 }
 
 .serv{
-    background-color: #efccde;
+    background-color: #fbebf3;
     padding-top: 20px;
-    color: #fae6f0;
+    color: #ffff;
 }
 
 .service-name-top{
@@ -34,7 +34,7 @@ font-family: "Poppins", sans-serif;
 .service-name{
     margin-top: 20px;
     background-color:rgb(162 95 152);
-    border-radius: 20%;
+    border-radius: 6%;
     width: 60%;
     padding: 15px;
     margin-bottom: 20px;
