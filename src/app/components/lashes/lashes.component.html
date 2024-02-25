@@ -1,1 +1,34 @@
-<p>lashes works!</p>
+<div class="slide-card">
+  <div class="card-lash">
+    <div class="techniche-name">{{ lash.name }}</div>
+    <div class="info">
+      <div class="img-space">
+        <ngx-slick-carousel
+          class="carousel"
+          #slickModal="slick-carousel"
+          [config]="slideConfig"
+        >
+          @for (lashe of lash.img; track lashe) {
+          <div ngxSlickItem class="slide">
+            <img src="{{ lashe }}" alt="" class="img" />
+          </div>
+          }
+        </ngx-slick-carousel>
+      </div>
+      <div class="description-section">
+        <div class="price">R${{ lash.price }}</div>
+        <p class="description-lash-text">
+          {{ lash.description }}
+        </p>
+        <div class="manutencoes-lashes" *ngIf="lash.manutencoes">
+          <span class="word-manutencoes"> Manutenções</span>
+          <span
+            class="lashes-prices-manutencao"
+            *ngFor="let dias of lash.manutencoes; let i = index"
+            ><strong>{{ dias }}</strong></span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

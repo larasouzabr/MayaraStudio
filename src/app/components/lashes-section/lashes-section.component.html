@@ -9,7 +9,7 @@
     para atender às suas necessidades e estilo pessoal.
   </h5>
 
-  <div class="options-lashes">
+  <!-- <div class="options-lashes" *ngIf="">
     <div
       class="card-lash"
       *ngFor="let lash of lashes; let i = index"
@@ -18,7 +18,17 @@
       <div class="techniche-name">{{ lash.name }}</div>
       <div class="info">
         <div class="img-space">
-          <img class="img" src="{{ lash.img }}" alt="" />
+          <ngx-slick-carousel
+            class="carousel"
+            #slickModal="slick-carousel"
+            [config]="slideConfig"
+          >
+            @for (lash of lash.img; track lash) {
+            <div ngxSlickItem class="slide">
+              <img src="{{ lash }}" alt="" class="img" />
+            </div>
+            }
+          </ngx-slick-carousel>
         </div>
         <div class="description-lash">
           <div class="price">R${{ lash.price }}</div>
@@ -36,5 +46,18 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+</div>
+<div class="lash-options" *ngIf="!firstoptionshowing">
+  <ngx-slick-carousel
+    class="carousel"
+    #slickModal="slick-carousel"
+    [config]="slideConfigOptions"
+  >
+    @for (lashe of lashes; track lashe) {
+    <div ngxSlickItem>
+      <app-lashes [lash]="lashe"></app-lashes>
+    </div>
+    }
+  </ngx-slick-carousel>
 </div>

@@ -1,0 +1,90 @@
+@media (max-width:480px) {
+    .img {
+        width: 100px;
+        height: 150px;
+        border-radius: 10px;
+        }
+    .slide-card{
+     min-width: 40%; 
+     margin-left: 12px;
+    }
+    .slide{
+        display: flex;
+        justify-content: center;
+    }
+    .description-section {
+        padding-top: 20px;
+        font-family: "Poppins", sans-serif;
+        text-align: justify;
+        font-style: normal;
+    }
+    .price {
+        font-size: 25px;
+        font-family: 'Noto Serif Display', serif;
+        margin-bottom: 10px;
+        display: flex;
+        font-weight: 600;
+        justify-content: center;
+    }
+    .techniche-name {
+        font-family: "Noto Serif Display", serif;
+        font-size: 15px;
+        line-height: 1.2;
+        min-height: 50px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .manutencoes-lashes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .description-lash-text{
+        text-align: center;
+        padding: 10px;
+        min-height: 140px;
+    }
+    .word-manutencoes {
+        margin-bottom: 10px;
+        font-family: 'Noto Serif Display', serif;
+        font-weight: 600;
+    }
+
+    /* .slide-card{
+        max-width: 30%;
+    }
+ 
+    
+        .img-space{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+        
+       
+
+        .description-lash{
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: justify;
+            margin-right: 10px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+  
+    
+        .price{
+            font-size: 25px;
+            font-family: 'Noto Serif Display', serif;
+            margin-bottom: 10px;
+        }
+        .word-manutencoes{
+            margin-bottom: 10px;
+            font-family: 'Noto Serif Display', serif;
+            font-weight: 600;
+        } */
+}

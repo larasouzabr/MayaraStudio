@@ -5,6 +5,11 @@
 
 }
 
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
+}
+
 @media (max-width:480px) {
     .content-lashes {
         display: flex;
@@ -17,9 +22,13 @@
         font-weight: 700;
     }
 
+    .description-section{
+        font-family: "Poppins", sans-serif;
+    }
+
     .info{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .card-lash{
         background-color: rgb(252, 236, 246);
@@ -30,61 +39,4 @@
         font-size: 12px;
     }
 
-    .img{
-        width: 100px;
-        height: 150px;
-        border-radius: 10px;
-    }
-
-    .img-space{
-        padding-bottom: 20px;
-    }
-    
-    .description-section{
-        padding: 20px;
-        text-align: justify;
-        font-family: "Poppins", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-    }
-    .options-lashes{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .description-lash{
-        margin-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: justify;
-        margin-right: 10px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-    }
-    .manutencoes-lashes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .techniche-name{
-        text-align: center;
-        font-family: 'Noto Serif Display', serif;
-        font-size: 30px;
-        line-height: 1.2;
-        margin-bottom: 20px;
-        font-weight: 700;
-    }
-    .price{
-        font-size: 25px;
-        font-family: 'Noto Serif Display', serif;
-        margin-bottom: 10px;
-    }
-    .word-manutencoes{
-        margin-bottom: 10px;
-        font-family: 'Noto Serif Display', serif;
-        font-weight: 600;
-    }
 }
