@@ -2,6 +2,10 @@ header {
     height: 26rem;
 }
 
+.navbar{
+    background-color: #FFE4F1;
+}
+
 .container {
     margin-top: 20px;
 }
