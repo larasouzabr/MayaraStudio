@@ -104,7 +104,7 @@ export class LashesSectionComponent {
       {
         breakpoint: 480,
         settings: {
-          "slidesToShow": 2,
+          "slidesToShow": 2.2,
           "slidesToScroll": 1,
           "autoplay": true,
           "autoplaySpeed": 4000,

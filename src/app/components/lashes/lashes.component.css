@@ -3,10 +3,13 @@
         width: 100px;
         height: 150px;
         border-radius: 10px;
-        }
+    }
     .slide-card{
      min-width: 40%; 
      margin-left: 12px;
+     min-height: 472px;
+     border-radius: 5px;
+     background-color: #f9c7e1;
     }
     .slide{
         display: flex;
@@ -32,7 +35,9 @@
         line-height: 1.2;
         min-height: 50px;
         font-weight: 700;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .manutencoes-lashes {
@@ -44,47 +49,11 @@
         text-align: center;
         padding: 10px;
         min-height: 140px;
+        font-size: 12px;
     }
     .word-manutencoes {
         margin-bottom: 10px;
         font-family: 'Noto Serif Display', serif;
         font-weight: 600;
     }
-
-    /* .slide-card{
-        max-width: 30%;
-    }
- 
-    
-        .img-space{
-            display: flex;
-            justify-content: center;
-            padding-bottom: 20px;
-        }
-        
-       
-
-        .description-lash{
-            margin-left: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: justify;
-            margin-right: 10px;
-            font-family: "Poppins", sans-serif;
-            font-weight: 300;
-            font-style: normal;
-        }
-  
-    
-        .price{
-            font-size: 25px;
-            font-family: 'Noto Serif Display', serif;
-            margin-bottom: 10px;
-        }
-        .word-manutencoes{
-            margin-bottom: 10px;
-            font-family: 'Noto Serif Display', serif;
-            font-weight: 600;
-        } */
 }

@@ -9,8 +9,10 @@
 @media (max-width:480px) {
 .cta-section{
     display: flex;
+    min-width: 100%;
     flex-direction: row;  
     align-items: center;
+    background-color: #FFE4F1;
 }
 .cta{
     width: 60%;
@@ -26,6 +28,19 @@ img {
 
 .items-included{
     margin-top: 20px;
+}
+
+   ul {
+       list-style-image: url('https://i.stack.imgur.com/5kI3v.png')
+   }
+
+.items-included{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(255, 219, 254);
 }
 
 }
