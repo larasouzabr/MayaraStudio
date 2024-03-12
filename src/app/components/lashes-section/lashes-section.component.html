@@ -8,47 +8,8 @@
     volumes dramáticos, nossos serviços de extensão de cílios são personalizados
     para atender às suas necessidades e estilo pessoal.
   </h5>
-
-  <!-- <div class="options-lashes" *ngIf="">
-    <div
-      class="card-lash"
-      *ngFor="let lash of lashes; let i = index"
-      :key="index"
-    >
-      <div class="techniche-name">{{ lash.name }}</div>
-      <div class="info">
-        <div class="img-space">
-          <ngx-slick-carousel
-            class="carousel"
-            #slickModal="slick-carousel"
-            [config]="slideConfig"
-          >
-            @for (lash of lash.img; track lash) {
-            <div ngxSlickItem class="slide">
-              <img src="{{ lash }}" alt="" class="img" />
-            </div>
-            }
-          </ngx-slick-carousel>
-        </div>
-        <div class="description-lash">
-          <div class="price">R${{ lash.price }}</div>
-          <p class="description-lash-text">
-            {{ lash.description }}
-          </p>
-          <div class="manutencoes-lashes" *ngIf="lash.manutencoes">
-            <span class="word-manutencoes"> Manutenções</span>
-            <span
-              class="lashes-prices-manutencao"
-              *ngFor="let dias of lash.manutencoes; let i = index"
-              ><strong>{{ dias }}</strong></span
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
 </div>
-<div class="lash-options" *ngIf="!firstoptionshowing">
+<div class="lash-options">
   <ngx-slick-carousel
     class="carousel"
     #slickModal="slick-carousel"

@@ -1,17 +1,37 @@
+
+
 .main-class-services{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
+.mini-description {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 30px ;
+}
+
 .serv{
     background-color: #fbebf3;
     padding-top: 20px;
     color: #ffff;
+    width: 30%;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .service-name-top{
-font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     text-align: justify;
@@ -19,10 +39,35 @@ font-family: "Poppins", sans-serif;
     justify-content: center;
 }
 
+.services-offered {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image-serv {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(162 95 152);
+    border-radius: 6%;
+    color: #ffff;
+    border: none;
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
 @media (max-width:480px) {
 .image-serv{
     width: 100px;
-    border-radius: 50%;
+    height: 150px;
 }
 .mini-description{
     margin: 20px;
@@ -30,13 +75,6 @@ font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
     text-align: justify;
-}
-.service-name{
-    margin-top: 20px;
-    background-color:rgb(162 95 152);
-    border-radius: 6%;
-    width: 60%;
-    padding: 15px;
     margin-bottom: 20px;
 }
 .serv{
@@ -47,11 +85,17 @@ font-family: "Poppins", sans-serif;
     flex-wrap: wrap;
     align-content: center;
     flex-direction: column;
-    }
 }
-.services-offered{
+.services-offered {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     flex-direction: column;
 }
+
+.service-name-top {
+    font-size: 24px;
+}
+
+}
+

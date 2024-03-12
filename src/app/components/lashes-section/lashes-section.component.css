@@ -1,42 +1,38 @@
+
+
 .content-lashes{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 
 }
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+}
 
+
+.description-section {
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    margin-top: 10px;
+    line-height: 2rem;
+}
 .slick-prev:before,
 .slick-next:before {
-    color: black !important;
+    color: blueviolet;
 }
-
 @media (max-width:480px) {
     .content-lashes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-top: 15px;
+    }
+    .description-section{
+        font-size: 12px;
+        margin-top: 2px;
     }
 
     .section-title{
-        font-weight: 700;
+        font-size: 24px;
     }
-
-    .description-section{
-        font-family: "Poppins", sans-serif;
-    }
-
-    .info{
-        display: flex;
-        flex-direction: column;
-    }
-    .card-lash{
-        background-color: rgb(252, 236, 246);
-        margin-top: 20px;
-    }
-    
-    .description-lash-text{
-        font-size: 12px;
-    }
-
 }

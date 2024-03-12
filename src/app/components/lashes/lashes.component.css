@@ -1,3 +1,65 @@
+   .img {
+       width: 300px;
+       height: 350px;
+       border-radius: 10px;
+   }
+
+   .slide-card {
+       margin-left: 12px;
+       border-radius: 5px;
+       background-color: #fae4f078;
+       min-height: 682px;
+   }
+ .slide {
+     display: flex;
+     justify-content: center;
+ }
+   .description-section {
+       padding-top: 20px;
+       font-family: "Poppins", sans-serif;
+       text-align: justify;
+       font-style: normal;
+   }
+
+   .price {
+       font-size: 25px;
+       font-family: 'Noto Serif Display', serif;
+       margin-bottom: 10px;
+       display: flex;
+       font-weight: 600;
+       justify-content: center;
+   }
+
+   .techniche-name {
+       font-family: "Noto Serif Display", serif;
+       font-size: 15px;
+       line-height: 1.2;
+       min-height: 50px;
+       font-weight: 700;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .manutencoes-lashes {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .description-lash-text {
+       text-align: center;
+       padding: 10px;
+       min-height: 120px;
+       font-size: 20px;
+   }
+
+   .word-manutencoes {
+       margin-bottom: 10px;
+       font-family: 'Noto Serif Display', serif;
+       font-weight: 600;
+   }
+
 @media (max-width:480px) {
     .img {
         width: 100px;
@@ -9,7 +71,7 @@
      margin-left: 12px;
      min-height: 472px;
      border-radius: 5px;
-     background-color: #f9c7e1;
+     background-color:#fae4f078;
     }
     .slide{
         display: flex;
@@ -48,7 +110,7 @@
     .description-lash-text{
         text-align: center;
         padding: 10px;
-        min-height: 140px;
+        min-height: 120px;
         font-size: 12px;
     }
     .word-manutencoes {

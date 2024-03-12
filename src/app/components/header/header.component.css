@@ -2,10 +2,9 @@
 .welcome-text{ 
     max-width:60%;
     position: relative;
-        top: 50%;
-        left: 5%;
+    top: 50%;
+    left: 5%;
 }
-
 
 .welcome-banner{
     width: 100%;
@@ -18,38 +17,65 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 40px;
 }
 
+   .welcome-banner {
+       padding-top: 40px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       background-color: #FFE4F1;
+       font-family: "Poppins", sans-serif;
+       font-weight: 500;
+   }
 
+    .welcome-text-name {
+        font-size: 90px;
+        line-height: 1.2em;
+        color: mediumvioletred;
+        font-family: "Tangerine", cursive;
+        font-weight: 700;
+        font-style: normal;
+    }
 .img-mayara{
-    width: 200px;
+    width: 400px;
     left: 50%;
     top: 18%;
     background-image: url('../../../assets/Vector.png');
     background-size: cover;
 }
 
+.img-div-mayara {
+    display: flex;
+    flex-direction: row;
+}
+
+  .redes-sociais {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 30%;
+      align-items: center;
+      margin-top: 70px;
+  }
+
 @media (max-width:480px)  {
-    .welcome-banner{
-        padding-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #FFE4F1;
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
-    }
+    .welcome-banner {
+            flex-direction: column;
+            justify-content: center;
+        }
     .welcome-text-hello{
         font-size: 25px;
     }
     .welcome-text-name{
         font-size: 50px;
-        line-height: 1.2em;
-        color: mediumvioletred;
-        font-variant: petite-caps;
-        font-weight: 800;
-        font-family: 'Noto Serif Display', serif;
     }
+    
+    .img-mayara {
+        width: 200px;
+    }
+
     .welcome-text {
         max-width: 80%;
         position: relative;
@@ -57,17 +83,11 @@
         left: 5%;
     }
     .img-div-mayara{
-        display: flex;
-            flex-direction: row;
-            justify-content:space-between;
+        justify-content:end;
     }
     
     .redes-sociais{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 30%;
-        align-items: center;
+     margin-top: 20px;
     }
 
     .img-mayara{

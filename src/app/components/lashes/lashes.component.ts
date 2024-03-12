@@ -20,7 +20,13 @@ interface LashItem {
 })
 export class LashesComponent {
   slideConfig = {
-    "autoplay": true, "arrows": false, "slidesToScroll": 1, "slidesToShow": 1, infinite: true};
+    "autoplay": true,
+    "arrows": false,
+    "slidesToScroll": 1,
+    "slidesToShow": 1,
+    infinite: true
+  };
+
   @Input() lash: LashItem = {
     name: 'string',
     price: 'string',

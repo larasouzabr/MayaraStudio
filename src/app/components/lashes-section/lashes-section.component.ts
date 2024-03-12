@@ -17,10 +17,7 @@ export class LashesSectionComponent {
       price: '150',
       description: 'Técnica indicada para quem gosta de sutilidade e a manutenção é feita a cada 15 dias.',
       img: [
-        '../../../assets/lashes-types/volume-brasileiro.PNG',
-        '../../../assets/lashes-types/volume-brasileiro-brown.PNG', '../../../assets/lashes-types/volume-brasileiro.PNG',
-        '../../../assets/lashes-types/volume-brasileiro.PNG',
-
+        '../../../assets/lashes-types/volume-brasileiro.PNG'
       ],
       manutencoes: [
         '15 dias - R$ 90,00',
@@ -76,7 +73,7 @@ export class LashesSectionComponent {
     {
       name: 'Volume Luxo',
       price: '220',
-      description: 'Técnica perfeita para quem gosta de delicadeza e durabilidade.',
+      description: 'Técnica perfeita para quem gosta de volume e durabilidade',
       img: ['../../../assets/lashes-types/volume-luxo.PNG'],
       manutencoes: [
         '25 dias - R$ 140,00',
@@ -84,31 +81,34 @@ export class LashesSectionComponent {
       ],
     },
   ]
-
-  firstoptionshowing = false
   slideConfigOptions = {
-    infinite: true,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1900,
         settings: {
-          slidesToShow: 3
+          "slidesToShow": 3,
+          "slidesToScroll": 1,
+          "autoplaySpeed": 1000,
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 1400,
         settings: {
-          slidesToShow: 2
+          "slidesToShow": 2.2,
+          "slidesToScroll": 1,
+          "autoplay": true,
+          "autoplaySpeed": 4000
         }
       },
       {
         breakpoint: 480,
         settings: {
+          "infinite": true,
+
           "slidesToShow": 2.2,
           "slidesToScroll": 1,
           "autoplay": true,
           "autoplaySpeed": 4000,
-          "infinite": true,
           arrows: false
         }
       }
